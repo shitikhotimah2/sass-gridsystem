@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 33px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px 0;
+  background: red;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: yellow;
+}
+
+[class^="col"] {
+  content: " ";
+  margin: 10px 1.375%;
+  background: blue;
+}
+
+.col1 {
+  width: 5.58333%;
+}
+
+.col2 {
+  width: 13.91667%;
+}
+
+.col3 {
+  width: 22.25%;
+}
+
+.col4 {
+  width: 30.58333%;
+}
+
+.col5 {
+  width: 38.91667%;
+}
+
+.col6 {
+  width: 47.25%;
+}
+
+.col7 {
+  width: 55.58333%;
+}
+
+.col8 {
+  width: 63.91667%;
+}
+
+.col9 {
+  width: 72.25%;
+}
+
+.col10 {
+  width: 80.58333%;
+}
+
+.col11 {
+  width: 88.91667%;
+}
+
+.col12 {
+  width: 97.25%;
+}
+
+@media screen and (max-width: 480px) {
+  .col1-xs {
+    width: 7.33333%;
+  }
+  .col2-xs {
+    width: 15.66667%;
+  }
+  .col3-xs {
+    width: 24%;
+  }
+  .col4-xs {
+    width: 32.33333%;
+  }
+  .col5-xs {
+    width: 40.66667%;
+  }
+  .col6-xs {
+    width: 49%;
+  }
+  .col7-xs {
+    width: 57.33333%;
+  }
+  .col8-xs {
+    width: 65.66667%;
+  }
+  .col9-xs {
+    width: 74%;
+  }
+  .col10-xs {
+    width: 82.33333%;
+  }
+  .col11-xs {
+    width: 90.66667%;
+  }
+  .col12-xs {
+    width: 99%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .col1-md {
+    width: 7.33333%;
+  }
+  .col2-md {
+    width: 15.66667%;
+  }
+  .col3-md {
+    width: 24%;
+  }
+  .col4-md {
+    width: 32.33333%;
+  }
+  .col5-md {
+    width: 40.66667%;
+  }
+  .col6-md {
+    width: 49%;
+  }
+  .col7-md {
+    width: 57.33333%;
+  }
+  .col8-md {
+    width: 65.66667%;
+  }
+  .col9-md {
+    width: 74%;
+  }
+  .col10-md {
+    width: 82.33333%;
+  }
+  .col11-md {
+    width: 90.66667%;
+  }
+  .col12-md {
+    width: 99%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .col4 {
+    width: 100%;
+  }
+  .col5 {
+    width: 100%;
+  }
+  .col6 {
+    width: 100%;
+  }
+  .col7 {
+    width: 100%;
+  }
+  .col8 {
+    width: 100%;
+  }
+  .col9 {
+    width: 100%;
+  }
+  .col10 {
+    width: 100%;
+  }
+  .col11 {
+    width: 100%;
+  }
+  .col12 {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=grid.css.map */
